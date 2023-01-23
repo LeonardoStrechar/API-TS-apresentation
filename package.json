@@ -1,0 +1,21 @@
+{
+  "name": "API-TS-apresentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:LeonardoStrechar/API-TS-apresentation.git",
+  "author": "LeonardoStrechar <strechar21@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.15",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.10.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}

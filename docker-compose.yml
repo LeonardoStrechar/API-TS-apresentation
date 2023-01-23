@@ -1,0 +1,13 @@
+version: '2'
+services:
+  web:
+    container_name: app
+    build: .
+    command: sh -c "yarn dev"
+    volumes:
+      - .:/usr/app
+    ports:
+      - "3001:3001"
+
+
+# para automatizar, use o comando docker-compose up direto, ele vai rodar o docker-file e criar a imagem
